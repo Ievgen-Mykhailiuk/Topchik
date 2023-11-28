@@ -7,16 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FC3064FE2B164BAB0080501B /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = FC3064FD2B164BAB0080501B /* Localizable.strings */; };
+		FC3065002B164BBD0080501B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC3064FF2B164BBD0080501B /* Images.xcassets */; };
+		FC3065022B164BC50080501B /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC3065012B164BC50080501B /* Colors.xcassets */; };
+		FC3065072B164CC30080501B /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3065032B164CC30080501B /* Images.swift */; };
+		FC3065082B164CC30080501B /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3065042B164CC30080501B /* Strings.swift */; };
+		FC3065092B164CC30080501B /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3065052B164CC30080501B /* Colors.swift */; };
+		FC30650A2B164CC30080501B /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3065062B164CC30080501B /* Fonts.swift */; };
+		FC30650D2B164F1D0080501B /* swiftgen.yml in Resources */ = {isa = PBXBuildFile; fileRef = FC30650C2B164F1D0080501B /* swiftgen.yml */; };
+		FC30650F2B164F850080501B /* swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = FC30650E2B164F850080501B /* swiftlint.yml */; };
+		FC3065122B1650680080501B /* netfox in Frameworks */ = {isa = PBXBuildFile; productRef = FC3065112B1650680080501B /* netfox */; };
 		FC8831132B163C8D00A2F5F0 /* TopchikApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8831122B163C8D00A2F5F0 /* TopchikApp.swift */; };
-		FC8831152B163C8D00A2F5F0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8831142B163C8D00A2F5F0 /* ContentView.swift */; };
+		FC8831152B163C8D00A2F5F0 /* MainListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8831142B163C8D00A2F5F0 /* MainListView.swift */; };
 		FC8831172B163C8E00A2F5F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC8831162B163C8E00A2F5F0 /* Assets.xcassets */; };
 		FC88311A2B163C8E00A2F5F0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC8831192B163C8E00A2F5F0 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FC3064FD2B164BAB0080501B /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		FC3064FF2B164BBD0080501B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FC3065012B164BC50080501B /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		FC3065032B164CC30080501B /* Images.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
+		FC3065042B164CC30080501B /* Strings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
+		FC3065052B164CC30080501B /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		FC3065062B164CC30080501B /* Fonts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		FC30650C2B164F1D0080501B /* swiftgen.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = swiftgen.yml; sourceTree = SOURCE_ROOT; };
+		FC30650E2B164F850080501B /* swiftlint.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = swiftlint.yml; sourceTree = SOURCE_ROOT; };
 		FC88310F2B163C8D00A2F5F0 /* Topchik.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Topchik.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC8831122B163C8D00A2F5F0 /* TopchikApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopchikApp.swift; sourceTree = "<group>"; };
-		FC8831142B163C8D00A2F5F0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FC8831142B163C8D00A2F5F0 /* MainListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainListView.swift; sourceTree = "<group>"; };
 		FC8831162B163C8E00A2F5F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC8831192B163C8E00A2F5F0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -26,12 +45,122 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC3065122B1650680080501B /* netfox in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FC3064F92B164B170080501B /* Localizable */ = {
+			isa = PBXGroup;
+			children = (
+				FC3064FD2B164BAB0080501B /* Localizable.strings */,
+			);
+			path = Localizable;
+			sourceTree = "<group>";
+		};
+		FC3064FA2B164B2B0080501B /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				FC3064FF2B164BBD0080501B /* Images.xcassets */,
+				FC3065012B164BC50080501B /* Colors.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		FC3064FB2B164B330080501B /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		FC3064FC2B164B3A0080501B /* Autogenerated */ = {
+			isa = PBXGroup;
+			children = (
+				FC3065052B164CC30080501B /* Colors.swift */,
+				FC3065062B164CC30080501B /* Fonts.swift */,
+				FC3065032B164CC30080501B /* Images.swift */,
+				FC3065042B164CC30080501B /* Strings.swift */,
+			);
+			path = Autogenerated;
+			sourceTree = "<group>";
+		};
+		FC3065132B1653480080501B /* App */ = {
+			isa = PBXGroup;
+			children = (
+				FC8831122B163C8D00A2F5F0 /* TopchikApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		FC3065142B1653620080501B /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		FC3065152B16536C0080501B /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		FC3065162B1653890080501B /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				FC3065172B1653A80080501B /* List */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		FC3065172B1653A80080501B /* List */ = {
+			isa = PBXGroup;
+			children = (
+				FC30651A2B1653C20080501B /* ViewModel */,
+				FC3065192B1653BA0080501B /* View */,
+				FC3065182B1653B40080501B /* Model */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		FC3065182B1653B40080501B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FC3065192B1653BA0080501B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FC8831142B163C8D00A2F5F0 /* MainListView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FC30651A2B1653C20080501B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		FC57C63C2B164AA5004327AD /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				FC8831162B163C8E00A2F5F0 /* Assets.xcassets */,
+				FC3064FC2B164B3A0080501B /* Autogenerated */,
+				FC3064FB2B164B330080501B /* Fonts */,
+				FC3064FA2B164B2B0080501B /* Assets */,
+				FC3064F92B164B170080501B /* Localizable */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
 		FC8831062B163C8D00A2F5F0 = {
 			isa = PBXGroup;
 			children = (
@@ -51,9 +180,13 @@
 		FC8831112B163C8D00A2F5F0 /* Topchik */ = {
 			isa = PBXGroup;
 			children = (
-				FC8831122B163C8D00A2F5F0 /* TopchikApp.swift */,
-				FC8831142B163C8D00A2F5F0 /* ContentView.swift */,
-				FC8831162B163C8E00A2F5F0 /* Assets.xcassets */,
+				FC3065132B1653480080501B /* App */,
+				FC3065142B1653620080501B /* Common */,
+				FC3065152B16536C0080501B /* Services */,
+				FC3065162B1653890080501B /* Modules */,
+				FC57C63C2B164AA5004327AD /* Resource */,
+				FC30650E2B164F850080501B /* swiftlint.yml */,
+				FC30650C2B164F1D0080501B /* swiftgen.yml */,
 				FC8831182B163C8E00A2F5F0 /* Preview Content */,
 			);
 			path = Topchik;
@@ -77,12 +210,16 @@
 				FC88310B2B163C8D00A2F5F0 /* Sources */,
 				FC88310C2B163C8D00A2F5F0 /* Frameworks */,
 				FC88310D2B163C8D00A2F5F0 /* Resources */,
+				FC30650B2B164EBB0080501B /* ShellScript */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = Topchik;
+			packageProductDependencies = (
+				FC3065112B1650680080501B /* netfox */,
+			);
 			productName = Topchik;
 			productReference = FC88310F2B163C8D00A2F5F0 /* Topchik.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +248,9 @@
 				Base,
 			);
 			mainGroup = FC8831062B163C8D00A2F5F0;
+			packageReferences = (
+				FC3065102B1650680080501B /* XCRemoteSwiftPackageReference "netfox" */,
+			);
 			productRefGroup = FC8831102B163C8D00A2F5F0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,19 +265,48 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC3065022B164BC50080501B /* Colors.xcassets in Resources */,
 				FC88311A2B163C8E00A2F5F0 /* Preview Assets.xcassets in Resources */,
+				FC3065002B164BBD0080501B /* Images.xcassets in Resources */,
+				FC30650F2B164F850080501B /* swiftlint.yml in Resources */,
+				FC3064FE2B164BAB0080501B /* Localizable.strings in Resources */,
 				FC8831172B163C8E00A2F5F0 /* Assets.xcassets in Resources */,
+				FC30650D2B164F1D0080501B /* swiftgen.yml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		FC30650B2B164EBB0080501B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FC88310B2B163C8D00A2F5F0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC8831152B163C8D00A2F5F0 /* ContentView.swift in Sources */,
+				FC8831152B163C8D00A2F5F0 /* MainListView.swift in Sources */,
+				FC3065092B164CC30080501B /* Colors.swift in Sources */,
+				FC3065072B164CC30080501B /* Images.swift in Sources */,
+				FC3065082B164CC30080501B /* Strings.swift in Sources */,
+				FC30650A2B164CC30080501B /* Fonts.swift in Sources */,
 				FC8831132B163C8D00A2F5F0 /* TopchikApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -339,6 +508,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FC3065102B1650680080501B /* XCRemoteSwiftPackageReference "netfox" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kasketis/netfox.git";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 1.21.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FC3065112B1650680080501B /* netfox */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FC3065102B1650680080501B /* XCRemoteSwiftPackageReference "netfox" */;
+			productName = netfox;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = FC8831072B163C8D00A2F5F0 /* Project object */;
 }
