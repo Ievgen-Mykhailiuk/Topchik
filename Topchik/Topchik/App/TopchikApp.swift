@@ -11,7 +11,7 @@ import SwiftUI
 struct TopchikApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainListView()
         }
     }
 }

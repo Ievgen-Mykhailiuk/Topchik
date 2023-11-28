@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  MainListView.swift
 //  Topchik
 //
 //  Created by Евгений  on 28/11/2023.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct MainListView: View {
     var body: some View {
         VStack {
             Image(systemName: Images.pin.name)
@@ -19,8 +19,8 @@ struct ContentView: View {
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct MainListView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        MainListView()
     }
 }
