@@ -16,6 +16,7 @@
 		FC30650A2B164CC30080501B /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3065062B164CC30080501B /* Fonts.swift */; };
 		FC30650D2B164F1D0080501B /* swiftgen.yml in Resources */ = {isa = PBXBuildFile; fileRef = FC30650C2B164F1D0080501B /* swiftgen.yml */; };
 		FC30650F2B164F850080501B /* swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = FC30650E2B164F850080501B /* swiftlint.yml */; };
+		FC3065122B1650680080501B /* netfox in Frameworks */ = {isa = PBXBuildFile; productRef = FC3065112B1650680080501B /* netfox */; };
 		FC8831132B163C8D00A2F5F0 /* TopchikApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8831122B163C8D00A2F5F0 /* TopchikApp.swift */; };
 		FC8831152B163C8D00A2F5F0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8831142B163C8D00A2F5F0 /* ContentView.swift */; };
 		FC8831172B163C8E00A2F5F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC8831162B163C8E00A2F5F0 /* Assets.xcassets */; };
@@ -44,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC3065122B1650680080501B /* netfox in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,6 +153,9 @@
 			dependencies = (
 			);
 			name = Topchik;
+			packageProductDependencies = (
+				FC3065112B1650680080501B /* netfox */,
+			);
 			productName = Topchik;
 			productReference = FC88310F2B163C8D00A2F5F0 /* Topchik.app */;
 			productType = "com.apple.product-type.application";
@@ -179,6 +184,9 @@
 				Base,
 			);
 			mainGroup = FC8831062B163C8D00A2F5F0;
+			packageReferences = (
+				FC3065102B1650680080501B /* XCRemoteSwiftPackageReference "netfox" */,
+			);
 			productRefGroup = FC8831102B163C8D00A2F5F0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -436,6 +444,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FC3065102B1650680080501B /* XCRemoteSwiftPackageReference "netfox" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kasketis/netfox.git";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 1.21.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FC3065112B1650680080501B /* netfox */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FC3065102B1650680080501B /* XCRemoteSwiftPackageReference "netfox" */;
+			productName = netfox;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = FC8831072B163C8D00A2F5F0 /* Project object */;
 }
